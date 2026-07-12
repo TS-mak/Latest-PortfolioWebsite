@@ -37,17 +37,17 @@ export default function HeroSection() {
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-tight text-balance mb-4">
             Hi, I&apos;m{' '}
-            <span className="text-[oklch(0.52_0.22_262)]">Your Name</span>
+            <span className="text-[oklch(0.52_0.22_262)]">Thembisile</span>
           </h1>
 
           <p className="text-lg sm:text-xl font-medium text-muted-foreground mb-3 text-pretty">
-            Software Engineer &amp; CS Student
+            Aspiring Software Engineer &amp; Computer Science Student
           </p>
 
           <p className="text-base text-muted-foreground leading-relaxed max-w-lg mb-8 text-pretty">
-            I design and build real-world software systems — from backend APIs to interactive
+            I design and build real-world software systems, from backend APIs to interactive
             frontends. Passionate about clean architecture, scalable code, and turning complex
-            problems into elegant solutions.
+            problems into elegant solutions!
           </p>
 
           {/* CTAs */}
@@ -72,7 +72,7 @@ export default function HeroSection() {
           {/* Social links */}
           <div className="flex items-center gap-4 justify-center md:justify-start">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/TS-mak"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub profile"
@@ -81,7 +81,7 @@ export default function HeroSection() {
               <Code2 className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/thembisile-makhubu-seipati"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn profile"
@@ -90,7 +90,7 @@ export default function HeroSection() {
               <Link2 className="w-5 h-5" />
             </a>
             <a
-              href="mailto:your@email.com"
+              href="mailto:makhubuts4@gmail.com"
               aria-label="Send email"
               className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
             >
@@ -112,7 +112,7 @@ export default function HeroSection() {
             />
             <div className="relative w-full h-full rounded-full border-2 border-border overflow-hidden bg-secondary">
               <Image
-                src="/avatar.png"
+                src="/thembisile.jpeg"
                 alt="Profile photo"
                 fill
                 className="object-cover"

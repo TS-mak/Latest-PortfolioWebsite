@@ -67,7 +67,7 @@ export default function Navbar() {
           aria-label="Go to home"
         >
           <Code2 className="w-5 h-5 text-[oklch(0.52_0.22_262)]" aria-hidden="true" />
-          <span className="font-mono text-sm tracking-tight">YourName.dev</span>
+          <span className="font-mono text-sm tracking-tight">Thembisile.dev</span>
         </a>
 
         {/* Desktop Nav */}
