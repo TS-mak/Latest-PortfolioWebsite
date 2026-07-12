@@ -64,7 +64,6 @@ const projects: Project[] = [
       'Visualized 12 sorting and 6 graph traversal algorithms with smooth animations',
       'Built a custom animation scheduler with pause, resume, and step controls',
       'Displayed time and space complexity for each algorithm in real time',
-      'Used by 200+ students as a study tool at my university',
     ],
     featured: false,
   },

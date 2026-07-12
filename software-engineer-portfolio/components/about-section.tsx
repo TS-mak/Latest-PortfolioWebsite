@@ -4,30 +4,30 @@ const highlights = [
   {
     icon: GraduationCap,
     title: 'Computer Science',
-    description: 'Pursuing a B.Sc. in Computer Science with focus on algorithms, systems, and software engineering.',
+    description: 'Final-Year Computer Science student at Stellenbosch University with a strong foundation in algorithms, operating systems, computer networks, concurrency, and software engineering.',
   },
   {
     icon: Cpu,
     title: 'Full-Stack Development',
-    description: 'Building end-to-end applications — from REST APIs and databases to responsive, accessible UIs.',
+    description: 'Building full-stack applications with modern technologies while focusing on clean architecture, maintanable code, and solving real-world problems.',
   },
   {
     icon: Globe,
     title: 'Distributed Systems',
-    description: 'Interested in scalable architectures, microservices, cloud infrastructure, and system design.',
+    description: 'Co-founder and Interim Chairperson of SWiiT, helping create opportunities for students to learn, collaborate, and grow within the technology community.',
   },
   {
     icon: BookOpen,
-    title: 'Continuous Learning',
-    description: 'Always exploring new technologies, contributing to open source, and writing about what I learn.',
+    title: 'Always Improving',
+    description: 'Whether it is learning a new framework, refining my engineering skills or tackling a challenging project, I am committed to continuous growth.',
   },
 ]
 
 const stats = [
-  { label: 'Projects Built', value: '10+' },
-  { label: 'Technologies', value: '20+' },
-  { label: 'GitHub Commits', value: '500+' },
-  { label: 'GPA', value: '3.8' },
+  { label: 'Software Projects', value: '6+' },
+  { label: 'Programming Languages', value: '6+' },
+  { label: 'Leadership Role', value: '1' },
+  { label: 'Years Coding', value: '4+' },
 ]
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
@@ -60,11 +60,10 @@ export default function AboutSection() {
               </p>
               <p>
                 My interests span full-stack web development, distributed systems, software architecture, and developer tooling. Through academic and personal projects, I&apos;ve explored different areas of computer science, including backend engineering, concurrency, operating systems, networking and algorithmic problem-solving.
-                I believe great software is not just about making things work — it&apos;s about making
-                them maintainable, efficient, valuable to the people who use it.
+                Great software is more than just making things work; it should be maintainable, efficient, and genuinely valuable to the people who use it.
               </p>
               <p>
-	      Beyond coding, I&apos;m passionate about collaboration, mentorship, and growing technology communities. As the Interim Chaiperson of the Stellenbosch Women in Information Technology Society (SWiiT), I help create spaces that encourage students to connect, learn from one another, and develop their skills in technology. I am also an active member of the Stellenbosch University Developer&apos;s society (SU Dev Soc) I believe great engineers are not only defined by the systems they build, but also the communities the help strengthn along the way.
+	      Beyond coding, I&apos;m passionate about collaboration, mentorship, and growing technology communities. As the Co-founder and Interim Chaiperson of the Stellenbosch Women in Information Technology Society (SWiiT), I help create spaces that encourage students to connect, learn from one another, and develop their skills in technology. I am also an active member of the Stellenbosch University Developers&apos; society (SU Dev Soc). To me, engineering is as much about people as it is about technology. The best engineers build great systems while helping others grow along the way.
               </p>
             </div>
 

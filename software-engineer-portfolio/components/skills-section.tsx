@@ -17,8 +17,12 @@ const skillCategories = [
   },
   {
     category: 'DevOps & Tools',
-    skills: ['Git','GitHub', 'Docker', 'Linux', 'CI/CD', 'AWS', 'Vercel', 'Postman', 'pnpm'],
+    skills: ['Git','GitHub', 'Linux', 'CI/CD', 'Vercel', 'Postman', 'pnpm'],
   },
+ {
+    category: 'Currently Learning',
+    skills: ['System Design', 'Docker', 'Cloud Computing', 'AWS'],
+ },
   {
     category: 'Computer Science',
     skills: [
