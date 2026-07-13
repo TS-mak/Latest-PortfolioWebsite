@@ -17,7 +17,7 @@ const entries: ExperienceEntry[] = [
     title: 'Software Engineering Project Demi',
     org: 'Department of Computer Science',
     period: 'July 2026 - present',
-    location: 'Stellenbosch University, STellenbosch',
+    location: 'Stellenbosch University, Stellenbosch',
     description:
       'Supporting the delivery of the Computer Science 344 Software Engineering module by assessing student software projects, evaluating tutorial submissions, and providing constructive feedback to help students strengthen their engineering practices.',
     bullets: [
@@ -30,36 +30,39 @@ const entries: ExperienceEntry[] = [
   },
   {
     kind: 'work',
-    title: 'Undergraduate Research Assistant',
-    org: 'University Computer Systems Lab',
-    period: 'Sep 2023 – May 2024',
-    location: 'On Campus',
+    title: 'Software Engineering Tutorial Demi',
+    org: 'Department of Computer Science',
+    period: 'July 2025 – Nov 2025',
+    location: 'Stellenbosch University, Stellenbosch',
     description:
-      'Assisted a PhD candidate researching distributed systems fault tolerance and consensus algorithms.',
+      'Assisted in teaching the Computer Science 344 Software Engineering module by supporting tutorials and helping students understand core software engineering concepts.',
     bullets: [
-      'Implemented a Raft consensus simulation in Python with configurable failure injection',
-      'Ran experiments measuring message latency across 5-node clusters under various partition scenarios',
-      'Contributed to a research paper draft submitted to a systems conference',
+      'Guided students through software engineering tutorials.',
+      'Explained technical concepts and assisted with debugging.',
+      'Supported students in developing stronger programming and problem-solving skills.',
+      'Helped create an engaging and supportive learning environment.',
     ],
-    tags: ['Python', 'Distributed Systems', 'Raft', 'Research'],
+    tags: ['Teaching', 'Software Engineering', 'Communication', 'Mentorship'],
   },
   {
-    kind: 'education',
-    title: 'B.S. Computer Science',
-    org: 'State University',
-    period: '2022 – 2026 (Expected)',
-    location: 'Your City, State',
-    description: 'GPA: 3.8 / 4.0 — Dean\'s List (3 consecutive semesters).',
+    kind: 'work',
+    title: 'Software Engineering Virtual Experience',
+    org: 'Standard Bank (Forage)',
+    period: 'September 2024',
+    location: 'Remote',
+    description: 'Completed a virtual software engineering program focused on backend development, authentication, cloud technologies, and financial software.',
     bullets: [
-      'Relevant coursework: Data Structures & Algorithms, Operating Systems, Database Systems, Software Engineering, Computer Networks, Machine Learning',
-      'Senior capstone project: Distributed task queue with fault-tolerant workers',
+      'Developed a Spring Boot application implementing JWT authentication and secure user access.',
+      'Built an AWS Lambda function in Python for facial recognition workflows.',
+      'Queried and analysed data using SQL and Teradata.',
+      'Developed a Django application that delivered personalised user experiences.',
     ],
-    tags: ['GPA 3.8', "Dean's List"],
+    tags: ['Java', 'Spring Boot', 'Python', 'SQL', 'AWS Lambda', 'Django'],
   },
   {
-    kind: 'leadership',
-    title: 'Vice President, ACM Student Chapter',
-    org: 'State University ACM',
+    kind: 'work',
+    title: 'Backend Engineering Virtual Experience',
+    org: 'Lyft (Remote)',
     period: 'Aug 2023 – Present',
     location: 'On Campus',
     description:
@@ -179,10 +182,10 @@ export default function ExperienceSection() {
             <SectionLabel>Experience</SectionLabel>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground text-balance">
-            Experience &amp; Education
+            Journey
           </h2>
           <p className="mt-3 text-muted-foreground max-w-xl mx-auto text-pretty leading-relaxed">
-            My journey through internships, research, academic study, and community leadership.
+            A journey built through software engineering, leadership, teaching, and continuous learning.
           </p>
         </div>
 
