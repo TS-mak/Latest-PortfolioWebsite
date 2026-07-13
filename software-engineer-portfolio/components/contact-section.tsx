@@ -6,21 +6,21 @@ import { Code2, Link2, AtSign, Mail, Send, MapPin, Copy, Check } from 'lucide-re
 const socialLinks = [
   {
     label: 'GitHub',
-    href: 'https://github.com/yourusername',
+    href: 'https://github.com/TS-mak',
     Icon: Code2,
-    handle: '@yourusername',
+    handle: '@TS-mak',
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/yourusername',
+    href: 'https://linkedin.com/in/thembisile-makhubu-seipati',
     Icon: Link2,
-    handle: 'linkedin.com/in/yourusername',
+    handle: 'linkedin.com/in/thembisile-makhubu-sepati',
   },
   {
     label: 'Twitter / X',
-    href: 'https://twitter.com/yourusername',
+    href: 'https://twitter.com/thembisilemakhubu',
     Icon: AtSign,
-    handle: '@yourusername',
+    handle: '@thembisilemakhubu',
   },
 ]
 
@@ -123,7 +123,7 @@ export default function ContactSection() {
               <p className="text-xs text-muted-foreground mb-2">
                 Preferred for professional inquiries.
               </p>
-              <CopyEmailButton email="your.email@university.edu" />
+              <CopyEmailButton email="makhubuts4@gmail.com" />
             </div>
 
             {/* Location */}
@@ -132,7 +132,7 @@ export default function ContactSection() {
                 <MapPin className="w-4 h-4 text-[oklch(0.52_0.22_262)]" aria-hidden="true" />
                 <span className="text-sm font-semibold text-foreground">Location</span>
               </div>
-              <p className="text-sm text-muted-foreground">Your City, State</p>
+              <p className="text-sm text-muted-foreground">Stellenbosch, Western Cape</p>
               <p className="text-xs text-muted-foreground mt-1">Open to remote &amp; relocation</p>
             </div>
 
