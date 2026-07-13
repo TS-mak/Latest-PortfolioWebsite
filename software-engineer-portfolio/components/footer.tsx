@@ -11,9 +11,9 @@ const links = [
 ]
 
 const social = [
-  { label: 'GitHub', href: 'https://github.com/yourusername', Icon: Code2 },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername', Icon: Link2 },
-  { label: 'Email', href: 'mailto:your.email@university.edu', Icon: Mail },
+  { label: 'GitHub', href: 'https://github.com/TS-mak', Icon: Code2 },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/thembisile-makhubu-seipati', Icon: Link2 },
+  { label: 'Email', href: 'mailto:makhubuts4@gmail.com', Icon: Mail },
 ]
 
 export default function Footer() {
@@ -29,7 +29,7 @@ export default function Footer() {
               aria-label="Go to top"
             >
               <Code2 className="w-5 h-5 text-[oklch(0.52_0.22_262)]" aria-hidden="true" />
-              <span className="font-mono text-sm tracking-tight">YourName.dev</span>
+              <span className="font-mono text-sm tracking-tight">Thembisile.dev</span>
             </a>
             <p className="mt-2 text-xs text-white/50 max-w-xs text-pretty">
               Computer Science student &amp; aspiring software engineer. Building real things, one commit at a time.
@@ -71,7 +71,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-white/40 font-mono">
-            &copy; {year} YourName. All rights reserved.
+            &copy; {year} Thembisile. All rights reserved.
           </p>
           <a
             href="/resume.pdf"
