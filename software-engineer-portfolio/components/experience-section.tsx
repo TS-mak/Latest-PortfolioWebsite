@@ -14,19 +14,19 @@ type ExperienceEntry = {
 const entries: ExperienceEntry[] = [
   {
     kind: 'work',
-    title: 'Software Engineering Intern',
-    org: 'Acme Technologies',
-    period: 'Jun 2024 – Aug 2024',
-    location: 'San Francisco, CA (Remote)',
+    title: 'Software Engineering Project Demi',
+    org: 'Department of Computer Science',
+    period: 'July 2026 - present',
+    location: 'Stellenbosch University, STellenbosch',
     description:
-      'Worked on the platform engineering team, shipping features for an internal developer tooling product used by 300+ engineers.',
+      'Supporting the delivery of the Computer Science 344 Software Engineering module by assessing student software projects, evaluating tutorial submissions, and providing constructive feedback to help students strengthen their engineering practices.',
     bullets: [
-      'Built a CI/CD pipeline dashboard using Next.js and the GitHub Actions API, reducing deploy visibility lag by 40%',
-      'Refactored a legacy REST service to a typed GraphQL layer with Zod validation, cutting client-side errors by 25%',
-      'Collaborated with senior engineers in Agile sprints, code reviews, and architecture discussions',
-      'Wrote integration tests with Vitest and achieved 80%+ coverage on all new modules',
+      'Assess software engineering projects against academic and engineering standards.',
+      'Mark tutorials and provide detailed technical feedback',
+      'Help students improve their software design, implementation, and problem-solving skills.',
+      'Contribute to maintaining the quality of one of the department\'s core software engineering modules.',
     ],
-    tags: ['Next.js', 'TypeScript', 'GraphQL', 'Vitest', 'CI/CD'],
+    tags: ['Software Engineering', 'Code Review', 'Assessment', 'Mentorship', 'Communication'],
   },
   {
     kind: 'work',
