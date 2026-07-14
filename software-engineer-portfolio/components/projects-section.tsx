@@ -58,7 +58,7 @@ const projects: Project[] = [
       'AlgoViz helps computer science students understand algorithms visually. It animates Bubble Sort, Merge Sort, QuickSort, Dijkstra, A*, BFS, DFS, and more — with adjustable speed, step-through controls, and complexity annotations.',
     image: '/projects/algoviz.png',
     tags: ['React', 'TypeScript', 'Canvas API', 'CSS Animations'],
-    github: 'https://github.com/yourusername/algoviz',
+    github: 'https://github.com/TS-mak/AlgoViz',
     demo: 'https://algoviz.example.com',
     highlights: [
       'Visualized 12 sorting and 6 graph traversal algorithms with smooth animations',
@@ -205,7 +205,7 @@ export default function ProjectsSection() {
 
         <div className="mt-12 text-center">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/TS-mak"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-md border border-border text-sm font-medium text-foreground hover:bg-secondary transition-colors"
