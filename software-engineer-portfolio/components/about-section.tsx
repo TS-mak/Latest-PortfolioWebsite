@@ -26,7 +26,7 @@ const highlights = [
 const stats = [
   { label: 'Software Projects', value: '6+' },
   { label: 'Programming Languages', value: '6+' },
-  { label: 'Leadership Role', value: '1' },
+  { label: 'Leadership Roles', value: '2+' },
   { label: 'Years Coding', value: '4+' },
 ]
 

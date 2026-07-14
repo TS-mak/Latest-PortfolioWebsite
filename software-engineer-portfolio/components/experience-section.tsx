@@ -62,18 +62,86 @@ const entries: ExperienceEntry[] = [
   {
     kind: 'work',
     title: 'Backend Engineering Virtual Experience',
-    org: 'Lyft (Remote)',
-    period: 'Aug 2023 – Present',
-    location: 'On Campus',
+    org: 'Lyft (Forage)',
+    period: 'August 2023',
+    location: 'Remote',
     description:
-      'Lead technical initiatives for a 200+ member computer science organization.',
+      'Completed a backend engineering simulation exploring scalable backend development and software engineering best practices.',
     bullets: [
-      'Organized 12 technical workshops covering topics from system design to competitive programming',
-      'Launched a peer mentorship program pairing 40 underclassmen with upperclassmen mentors',
-      'Managed the club\'s website and GitHub organization with 15 active contributors',
+      'Applied Test-Driven Development and unit testing principles.',
+      'Refactored backend code for improved maintainability.',
+      'Designed RESTful APIs following clean architectural principles.',
+      'Used Git thoughout the software development workflow',
+    ],
+    tags: ['RESR APIs', 'Software Architecture', 'Git', 'Testing'],
+  },
+  {
+    kind: 'work',
+    title: 'Mathematics & Physics Tutor',
+    org: 'Falesizwe Secondary School',
+    period: '2023',
+    location: 'Frankfort, Free State',
+    description:
+      'Tutored high school learners in Mathematics and Physics while adapting teaching methods to suit different learning styles and levels of understanding.',
+    bullets: [
+      'Prepared students for examinations and assessments.',
+      'Developed personalised learning strategies.',
+      'Strengthened analytical thinking and problem-solving skills.',
     ],
     tags: ['Leadership', 'Community', 'Mentorship'],
   },
+{
+    kind: 'education',
+    title: 'Bachelor of Science in Computer Science',
+    org: 'Stellenbosch University',
+    period: 'January 2022 – Present',
+    location: 'Stellenbosch, South Africa',
+    description:
+      'Final-year Computer Science student with a strong foundation in software engineering, operating systems, computer networks, concurrency, database systems, algorithms, and distributed systems.',
+    bullets: [
+      'Software Engineering',
+      'Operating System',
+      'Computer Networks',
+      'Database Systems',
+      'Concurrent Systems',
+      'Data Structures & Algorithms',
+      'Distributed Systems',
+    ],
+    tags: ['Leadership', 'Community', 'Mentorship'],
+  },
+  {
+    kind: 'leadership',
+    title: 'Co-founder & Interim Chairperson',
+    org: 'Stellenbosch Women in Information Technology (SWiiT)',
+    period: 'June 2026 – Present',
+    location: 'Stellenbosch, South Africa',
+    description:
+      'Co-founded and currently lead SWiiT, a student society dedicated to empowering women pursuing careers in technology through mentorship, collaboration, and professional development.',
+    bullets: [
+      'Co-founded the society alongside the founding executive team.',
+      'Lead strategic planning, governance, and society operations.',
+      'Coordinate partnerships with technology communities and industry.',
+      'Organise initiatives that encourage networking, mentorship, and technical growth.',
+      'Help create an inclusive environment where students can develop confidence in technology.',
+    ],
+    tags: ['Leadership', 'Community', 'Mentorship'],
+  },
+{
+    kind: 'leadership',
+    title: 'Class Representative',
+    org: 'Stellenbosch University',
+    period: 'February 2024 - June 2024',
+    location: 'On Campus',
+    description:
+      'Represented students by acting as the link between lecturers, faculty leadership, and classmates while advocating for student interests.',
+    bullets: [
+	    'Collected and communicated student feedback',
+	    'Participated in faculty leadership training',
+	    'Strengthened collaboration between students and academic staff',
+    ],
+    tags: ['Leadership', 'Communication', 'Teamwork'],
+  },
+
 ]
 
 const kindMeta = {
