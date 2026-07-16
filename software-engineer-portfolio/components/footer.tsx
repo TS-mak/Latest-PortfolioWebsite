@@ -74,7 +74,7 @@ export default function Footer() {
             &copy; {year} Thembisile. All rights reserved.
           </p>
           <a
-            href="public/Thembisile Resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs font-medium text-[oklch(0.52_0.22_262)] hover:underline"
